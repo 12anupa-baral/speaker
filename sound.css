@@ -1,0 +1,76 @@
+body {
+    background-image: url("GAaNa.png");
+    background-size:cover;
+     background-position:center;
+     position:relative;
+     background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+  }
+  
+  .navbar {
+     width:100%;
+     display:flex;
+     float: right;
+     align-items:center;
+     justify-content:space-between;
+       
+  }
+  
+  .navbar ul li{
+      list-style:none;
+      display:inline-block;
+      margin:0 15px;
+    
+  }
+  .navbar ul li a{
+      text-decoration:none;
+      font-size:20px;
+      color:#fff9f9;
+    
+  }
+  
+  .navbar ul li a:hover{
+      box-sizing:border-box;
+      border:solid 1px #faf0f0;
+      background-color:rgb(148, 153, 163);
+      border-radius:10%;
+      
+  
+  }
+  
+  
+  h1{
+      font-size:100px;
+      margin:50px;
+      padding:50px;
+      color:#faf8f8
+  }
+
+  .right-col{
+    float:left;
+    margin-right:6%;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+  }
+  p{
+      font-size:25px;
+      color:hsl(307, 10%, 36%);
+      font-weight:400;
+      margin-right:50px;
+      
+  }
+  #icons{
+      width:80px;
+      cursor:pointer;
+      margin-bottom:20px;
+}
+icons.src{
+
+    width:80px;
+      cursor:pointer;
+      margin-bottom:20px;
+}
+  

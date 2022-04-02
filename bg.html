@@ -1,0 +1,73 @@
+<html>
+    <head><title>music</title></head>
+<head>
+    <body>
+        <link rel="stylesheet" href="sound.css">
+    <div class="container"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a href ="#" ></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#"></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#"></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#"></a></li>
+        <li><a href ="#"> </a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="#" ></a></li>
+        <li><a href ="home.html" >HOME</a></li>
+        <li><a href ="about.html"> ABOUT</a></li>
+        <li><a href ="#">SPECIFICATIONS</a></li>
+        <li><a href ="product.html"> PRODUCT</a></li>
+        <li><a href ="contact.html" >CONNECT</a></li>
+        </ul>
+        </nav>
+
+        <div class="content">
+            <div class="left-col">
+                <h1>THE <BR>REAL<BR>MUSIC</h1>
+            </div>
+
+            <div class="right-col">
+               <p>Click here to listen</p></spam><img width=100px src="play button.png" id="icons" ></spam>
+            </div>
+            <audio id="mysong">
+                <source src="di-evantile_savage-law.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+                var mysong = document.getElementById("mysong");
+                var icons= document.getElementById("icons");
+
+                icons.onclick = function()
+                {
+                    if(mysong.paused)
+                    {
+                        mysong.play();
+                        icons.src="pause - Copy.png";
+                    }
+                    else
+                    {
+                        mysong.pause();
+                        icons.src="play button.png";
+                    }
+                }
+
+            </script>
+        </div>
+    </body>
+
+
+</html>
